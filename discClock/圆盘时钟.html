@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>圆盘时钟</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background-color:black;
+		}
+		div{
+			margin:auto;
+			width:500px;
+			position:absolute;  /* 父相子绝 */
+			left:50%;
+			top:50%;
+			margin-left:-250px;
+			margin-top:-250px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<canvas id="canvas" width="500" height="500">
+		</canvas>
+	</div>
+		<script src="./js/index.js"></script>
+
+
+</body>
+</html>
+
+<!--
+<canvas> 标签只是图形容器，须使用js脚本来绘制图形
+-->
